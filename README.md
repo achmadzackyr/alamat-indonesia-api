@@ -34,7 +34,7 @@ API statis adalah API yang _endpoint_-nya terdiri dari file statis.
 #### 1. Mengambil Daftar Provinsi
 
 ```
-GET https://achmadzackyr.github.io/alamat-indonesia-api/api/provinces.json
+GET https://achmadzackyr.github.io/alamat-indonesia-api/static/api/provinces.json
 ```
 
 Contoh Response:
@@ -56,13 +56,13 @@ Contoh Response:
 #### 2. Mengambil Daftar Kab/Kota pada Provinsi Tertentu
 
 ```
-GET https://achmadzackyr.github.io/alamat-indonesia-api/api/regencies/{provinceId}.json
+GET https://achmadzackyr.github.io/alamat-indonesia-api/static/api/regencies/{provinceId}.json
 ```
 
 Contoh untuk mengambil daftar kab/kota di provinsi Aceh (ID = 11):
 
 ```
-GET https://achmadzackyr.github.io/alamat-indonesia-api/api/regencies/11.json
+GET https://achmadzackyr.github.io/alamat-indonesia-api/static/api/regencies/11.json
 ```
 
 Contoh Response:
@@ -86,13 +86,13 @@ Contoh Response:
 #### 3. Mengambil Daftar Kecamatan pada Kab/Kota Tertentu
 
 ```
-GET https://achmadzackyr.github.io/alamat-indonesia-api/api/districts/{regencyId}.json
+GET https://achmadzackyr.github.io/alamat-indonesia-api/static/api/districts/{regencyId}.json
 ```
 
 Contoh untuk mengambil daftar kecamatan di Aceh Selatan (ID = 1103):
 
 ```
-GET https://achmadzackyr.github.io/alamat-indonesia-api/api/districts/1103.json
+GET https://achmadzackyr.github.io/alamat-indonesia-api/static/api/districts/1103.json
 ```
 
 Contoh Response:
@@ -116,13 +116,13 @@ Contoh Response:
 #### 4. Mengambil Daftar Kelurahan pada Kecamatan Tertentu
 
 ```
-GET https://achmadzackyr.github.io/alamat-indonesia-api/api/villages/{districtId}.json
+GET https://achmadzackyr.github.io/alamat-indonesia-api/static/api/villages/{districtId}.json
 ```
 
 Contoh untuk mengambil daftar kelurahan di Trumon (ID = 1103010):
 
 ```
-GET https://achmadzackyr.github.io/alamat-indonesia-api/api/villages/1103010.json
+GET https://achmadzackyr.github.io/alamat-indonesia-api/static/api/villages/1103010.json
 ```
 
 Contoh Response:
@@ -146,13 +146,13 @@ Contoh Response:
 #### 5. Mengambil Data Provinsi berdasarkan ID Provinsi
 
 ```
-GET https://achmadzackyr.github.io/alamat-indonesia-api/api/province/{provinceId}.json
+GET https://achmadzackyr.github.io/alamat-indonesia-api/static/api/province/{provinceId}.json
 ```
 
 Contoh untuk mengambil data provinsi Aceh (ID = 11):
 
 ```
-GET https://achmadzackyr.github.io/alamat-indonesia-api/api/province/11.json
+GET https://achmadzackyr.github.io/alamat-indonesia-api/static/api/province/11.json
 ```
 
 Contoh Response:
@@ -167,13 +167,13 @@ Contoh Response:
 #### 6. Mengambil Data Kab/Kota berdasarkan ID Kab/Kota
 
 ```
-GET https://achmadzackyr.github.io/alamat-indonesia-api/api/regency/{regencyId}.json
+GET https://achmadzackyr.github.io/alamat-indonesia-api/static/api/regency/{regencyId}.json
 ```
 
 Contoh untuk mengambil data kabupaten Aceh Selatan (ID = 1103):
 
 ```
-GET https://achmadzackyr.github.io/alamat-indonesia-api/api/regency/1103.json
+GET https://achmadzackyr.github.io/alamat-indonesia-api/static/api/regency/1103.json
 ```
 
 Contoh Response:
@@ -189,13 +189,13 @@ Contoh Response:
 #### 7. Mengambil Data Kecamatan berdasarkan ID Kecamatan
 
 ```
-GET https://achmadzackyr.github.io/alamat-indonesia-api/api/district/{districtId}.json
+GET https://achmadzackyr.github.io/alamat-indonesia-api/static/api/district/{districtId}.json
 ```
 
 Contoh untuk mengambil data kecamatan Trumon Timur (ID = 1103011):
 
 ```
-GET https://achmadzackyr.github.io/alamat-indonesia-api/api/district/1103011.json
+GET https://achmadzackyr.github.io/alamat-indonesia-api/static/api/district/1103011.json
 ```
 
 Contoh Response:
@@ -211,13 +211,13 @@ Contoh Response:
 #### 8. Mengambil Data Kelurahan berdasarkan ID Kelurahan
 
 ```
-GET https://achmadzackyr.github.io/alamat-indonesia-api/api/village/{villageId}.json
+GET https://achmadzackyr.github.io/alamat-indonesia-api/static/api/village/{villageId}.json
 ```
 
 Contoh untuk mengambil data kelurahan Jambo Dalem (ID = 1103011010):
 
 ```
-GET https://achmadzackyr.github.io/alamat-indonesia-api/api/village/1103011010.json
+GET https://achmadzackyr.github.io/alamat-indonesia-api/static/api/village/1103011010.json
 ```
 
 Contoh Response:
